@@ -144,11 +144,11 @@ form{
         font-size: 15px;
     }
     #factorial_body{
-        font-size: 15rem;
+        width: 15rem;
     }
     #factorial_body h1{
         font-size: 15px;
-    }
+    } 
     form{
         width: 150px;
     }
