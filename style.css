@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main_div{
+    background-color:lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+/* #type3 ul{
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    width: 20rem;
+    height: 10rem;
+    padding: 0 5rem;
+    background-color: #2d525e;
+} */
+.list:hover{
+    background-color: #35b5e79a;
+    
+}
+#type3 ul li{
+    padding: 1rem 0rem;
+    border: 2px solid rgb(54, 115, 165);
+    border-radius: 2rem;
+    margin: 1rem 0;
+    width: 28rem;
+    text-align: center;
+    list-style: none;
+    font-size: 1.5rem;
+}
+#type3 ul li a{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+#palindrom{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0rem 0;
+}
+#palindrom_body h1{
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 3rem;
+}
+#prime{
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0rem 0;
+}
+#prime_body h1{
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+}
+#factorial{
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0rem 0;
+}
+#factorial_body h1{
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:650px) {
+    #main_div h1{
+        font-size: 1.5rem;
+    }
+    #type3 ul li{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:508px){
+    #main_div h1{
+        font-size: 20px
+    }
+    #type3 ul li{
+        width: 250px;
+        font-size: 15px;
+    }
+    #palindrom_body{
+        width: 20rem;
+    }
+    #palindrom_body h1{
+        font-size: 20px;
+    }
+    #prime_body{
+        width: 20rem;
+    }
+    #prime_body h1{
+        font-size: 20px;
+    }
+    #factorial_body{
+        width: 20rem;
+    }
+    #factorial_body h1{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:380px){
+    #main_div h1{
+        font-size: 15px
+    }
+    #type3 ul li{
+        width: 180px;
+        font-size: 15px;
+    }
+    #palindrom_body{
+        width: 15rem;
+    }
+    #palindrom_body h1{
+        font-size: 15px;
+    }
+    #prime_body{
+        width: 15rem;
+    }
+    #prime_body h1{
+        font-size: 15px;
+    }
+    #factorial_body{
+        font-size: 15rem;
+    }
+    #factorial_body h1{
+        font-size: 15px;
+    }
+    form{
+        width: 150px;
+    }
+}
